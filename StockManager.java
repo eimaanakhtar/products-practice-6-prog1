@@ -64,7 +64,9 @@ public class StockManager
     /**
      * Print details of all the products.
      */
-    public void printProductDetails()
-    {
+    public void printProductDetails() {
+        for(Product item : stockList) {
+        System.out.println(item.toString());
+       }
     }
 }
